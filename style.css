@@ -376,7 +376,34 @@ header {
     font-size: 40px;
     text-align: center;
 }
-
+/* Call to action section */
+.getstarted {
+    margin-top: 80px;
+    padding: 10rem;
+}
+.ctn-container {
+    display: flex;
+    width: 80%;
+    padding: 2rem;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.212);
+    margin: 10px auto;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+.ctn-btn {
+    padding: 20px 50px;
+    color: white;
+    background: var(--gradient-2);
+    border: none;
+    font-size: 20px;
+    border-radius: 2px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.479);
+    cursor: pointer;
+    outline: none;
+}
+.ctn-btn:hover {
+    background: var(--gradient-4);
+}
 
 
 
