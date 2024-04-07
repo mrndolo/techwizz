@@ -405,6 +405,44 @@ header {
     background: var(--gradient-4);
 }
 
+/* Footer Section */
+.footer {
+    margin-top: 80px;
+    background-image: url(./images/footer-agency.png);
+    background-size: cover;
+}
+.col-4 {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer1 h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.footer1 i {
+    margin: 50px 20px;
+    font-size: 25px;
+    color: gray;
+}
+.footer2 h4, .footer3 h4, .footer4 h4 {
+    color: grey;
+    font-weight: 400;
+}
+.footer hr {
+    width: 90%;
+    margin: 0 auto;
+}
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+    padding: 30px;
+    font-weight: 400;
+}
+
+
 
 
 /* Animations */
